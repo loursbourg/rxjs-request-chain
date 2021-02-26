@@ -106,8 +106,8 @@ const App = () => {
           <div className="uk-width-1-1 uk-text-center uk-row-first">
             <h1 className="uk-heading-small">Chain HTTP Requests with RxJS</h1>
             <p className="uk-text-large">
-              A small example to demonstrate how to chain multiple http
-              requests.
+              A small example to demonstrate how to chain multiple http requests
+              using RxJS and axios.
             </p>
           </div>
         </div>
