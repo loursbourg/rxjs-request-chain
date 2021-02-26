@@ -1,6 +1,6 @@
 {
   "name": "rxjs-request-chain",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A small example to demonstrate how to chain multiple http requests using RxJS and axios.",
   "author": {
     "name": "Abdelkader Damene",
