@@ -1,7 +1,13 @@
 {
   "name": "rxjs-request-chain",
   "version": "0.1.0",
-  "private": true,
+  "description": "A small example to demonstrate how to chain multiple http requests using RxJS and axios.",
+  "author": {
+    "name": "Abdelkader Damene",
+    "url": "https://github.com/loursbourg"
+  },
+  "license": "MIT",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
