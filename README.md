@@ -10,7 +10,7 @@ Clone the repo and run:
 - ```yarn```
 - ```yarn run start```
 
-or if you are only interested in [the code behind](../blob/master/src/App.js)
+or if you are only interested in [the code behind](../main/src/App.js)
 
 ### Operators Used
 
