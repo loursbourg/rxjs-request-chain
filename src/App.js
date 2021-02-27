@@ -47,9 +47,10 @@ const App = () => {
 
   const startSynchronization = () => {
     setIsSyncing(true);
+    // create an observable from array
     from(state.todos)
       .pipe(
-        // taks 10 todos
+        // taks 10 items
         take(10),
         concatMap((todo) =>
           of(todo).pipe(
@@ -57,6 +58,7 @@ const App = () => {
             // to not upset the server
             delay(200),
             mergeMap((t) =>
+              // prepare request payload
               axios.post('https://jsonplaceholder.typicode.com/todos', {
                 title: t.title,
                 completed: true,
@@ -67,6 +69,7 @@ const App = () => {
               todo,
               is_successfull: true,
             })),
+            // catch failed requests
             catchError((response) =>
               of({
                 response,
